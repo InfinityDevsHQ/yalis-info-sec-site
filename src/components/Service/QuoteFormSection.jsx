@@ -1,4 +1,4 @@
-import ServiceQuoteForm from "./forms/service-quote-form";
+import ContactForm from "../contact/contact-form";
 import React from "react";
 export default function QuoteFormSection({ data }) {
   return (
@@ -17,7 +17,7 @@ export default function QuoteFormSection({ data }) {
             <div className="bg-white p-8 md:p-16">
               <h2 className="text-primary-dark">{data?.title}</h2>
               <p className="my-8">{data?.description}</p>
-              {data?.showQuoteSectionForm && <ServiceQuoteForm data={data} />}
+              {data?.showQuoteSectionForm && <ContactForm />}
             </div>
           </div>
         </div>

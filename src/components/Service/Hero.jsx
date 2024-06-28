@@ -1,4 +1,4 @@
-import FastQuoteForm from "./forms/fast-quote-form";
+import ContactForm from "../contact/contact-form";
 import React from "react";
 export default function Hero({ data }) {
   return (
@@ -19,7 +19,7 @@ export default function Hero({ data }) {
               <h3 className="text-primary-dark font-extrabold text-center mb-5">
                 {data?.formTitle}
               </h3>
-              <FastQuoteForm data={data} />
+              <ContactForm />
             </div>
           </div>
         </div>
