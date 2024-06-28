@@ -1,4 +1,4 @@
-import QuoteForm from "./forms/quote-form";
+import ContactForm from "../contact/contact-form";
 import React from "react";
 export default function QuoteFormSection({ data }) {
   return (
@@ -19,7 +19,7 @@ export default function QuoteFormSection({ data }) {
               <p className="my-8 text-center md:text-left">
                 {data?.formDescription}
               </p>
-              <QuoteForm />
+              <ContactForm />
             </div>
           </div>
         </div>

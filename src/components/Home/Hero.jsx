@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CyberForm from "./forms/cyber-form";
 import React from "react";
+import ContactForm from "../contact/contact-form";
 
 export default function Hero({ data }) {
   return (
@@ -34,7 +34,7 @@ export default function Hero({ data }) {
               <h3 className="text-primary-dark font-extrabold leading-[1.3] text-center mb-5">
                 {data?.formTitle}
               </h3>
-              <CyberForm data={data} />
+              <ContactForm />
             </div>
           </div>
         </div>
