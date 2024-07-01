@@ -9,7 +9,9 @@ export default function QuoteSection({ title, description }) {
         <p className="text-gray-light text-lg mb-2.5 text-center">
           {description}
         </p>
-        <ContactForm />
+        <div className="w-96 mx-auto">
+          <ContactForm />
+        </div>
       </div>
     </section>
   );

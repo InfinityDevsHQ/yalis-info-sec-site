@@ -1,5 +1,5 @@
 import Richtext from "../common/Richtext";
-import ServiceForm from "./forms/service-form";
+import ContactForm from "../contact/contact-form";
 import React from "react";
 export default function GetAFastQuoteForm({ data }) {
   return (
@@ -16,7 +16,7 @@ export default function GetAFastQuoteForm({ data }) {
               </div>
             </div>
           )}
-          {data?.showForm && <ServiceForm data={data} />}
+          {data?.showForm && <ContactForm />}
         </div>
       </div>
     </section>
